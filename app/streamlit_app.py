@@ -225,7 +225,7 @@ if image is not None:
     if analyze:
         st.info("AI is analyzing the waste item...")
 
-        image_path = "../temp/temp_image.png"
+        image_path = "temp/temp_image.png"
         image.save(image_path)
 
         result = analyze_waste(image_path)
